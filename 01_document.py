@@ -1,7 +1,6 @@
 from appscript import *
 
 indd = app("Adobe InDesign CC 2019")
-# print(indd.version())  # 14.*.*.***
 
 # open an existing document
 # doc1 = indd.open("path/to/indesign/file.indd")
