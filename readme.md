@@ -9,7 +9,7 @@
 > - Ampersands (&) are replaced by the word 'and'.
 > - All other characters are converted to 0x00-style hexadecimal representations.
 > - Names that match Python keywords or names reserved by appscript have an underscore appended. (※)
-#### <div style="text-align: right;">(※example: class--> class_ , properties--> properties_ )</div>
+#### ※example: class--> class_ , properties--> properties_
 
 # Usage
 ```py
@@ -99,3 +99,4 @@ indd.script_preferences.enable_redraw.set(False)
 # Sample code
 - [00_application](00_application.py)
 - [01_document](01_document.py)
+- [02_text_frame](02_text_frame.py)
