@@ -3,3 +3,4 @@
 *.pyc
 *.indd
 .gitignore
+temp_files/

@@ -1,6 +1,8 @@
+# About
+Some example scripts for InDesign automation control on Mac.
 # About appscript
+- Installation: `pip install appscript`
 - HP: http://appscript.sourceforge.net/
-- Installation: pip install appscript
 
 # Keyword conversion
 ## click [here](http://appscript.sourceforge.net/py-appscript/doc/appscript-manual/05_keywordconversion.html)
@@ -103,3 +105,4 @@ indd.script_preferences.enable_redraw.set(False)
 - [03_set_ruby_to_textframe](03_set_ruby_to_textframe/readme.md)
 - [04_layer](04_layer.py)
 - [05_character](05_character.py)
+- [06_paragraph](06_paragraph.py)
