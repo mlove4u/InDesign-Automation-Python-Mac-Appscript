@@ -101,7 +101,7 @@ indd.script_preferences.enable_redraw.set(False)
 # Sample code
 - [00_application](00_application.py)
 - [01_document](01_document.py)
-- [02_text_frame](02_text_frame.py)
+- [02_text_frame](02_text_frame.py) --> [result example](data_files/02_text_frame.png)
 - [03_set_ruby_to_textframe](03_set_ruby_to_textframe/readme.md)
 - [04_layer](04_layer.py)
 - [05_character](05_character.py) --> [result example](data_files/05_character.png)
