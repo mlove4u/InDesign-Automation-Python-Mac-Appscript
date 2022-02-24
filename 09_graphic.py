@@ -5,7 +5,7 @@ indd = app("Adobe InDesign 2022")
 doc = indd.make(new=k.document)
 page1 = doc.pages[1]
 
-# add a new text frame with properties
+# add a rectangle with properties
 rectangle = page1.make(new=k.rectangle,
                        with_properties={
                            k.geometric_bounds: [20, 20, 100, 100],
