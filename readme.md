@@ -111,3 +111,8 @@ indd.script_preferences.enable_redraw.set(False)
 - [09_graphic](09_graphic.py) --> [result example](data_files/09_graphic.png)
 - [10_pdf](10_pdf.py)
 - [11_find_and_change_text](11_find_and_change_text.py) --> [example](data_files/11_find_and_change_text.png)
+    - find/change_text
+    - find/change_grep
+- [12_export_selection_to_image](12_export_selection_to_image.py)
+    - [GUI](data_files/12_GUI.png)
+    - [Usage](data_files/12_usage.png)
