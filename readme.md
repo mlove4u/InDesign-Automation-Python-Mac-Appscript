@@ -92,9 +92,9 @@ characters[1:3] # note: include the 3rd item !!!!!
 ```
 
 # Performance
-Running at about 30% speed of javascript/applescript. InDesign document always redraw during script execution. It just runs faster only when we directly execute officially supported language of indesign (javascript/applescript/vbscript) from script panel.
+When running a script in InDesign, it operates at a significantly slower speed of approximately 30% compared to officially supported languages such as JavaScript, AppleScript, and VBScript. This is due to the InDesign document continually redrawing during script execution, which significantly slows down processing times.
 ```py
-# This doesn't speed up processing
+# Note that this will not speed up processing.
 indd.script_preferences.enable_redraw.set(False)
 ```
 
@@ -119,3 +119,4 @@ indd.script_preferences.enable_redraw.set(False)
 - [13_find_all_imgs_smaller_than_350dpi](13_find_all_imgs_smaller_than_350dpi.py)
 - [14_export_table_to_Excel](14_export_table_to_Excel.py) --> [example](data_files/14_export_table_to_Excel.png)
 - [15_export_document_to_idml](15_export_document_to_idml.py)
+- [16_InDesign_vs_ChatGPT](16_InDesign_vs_ChatGPT.py) --> [example](data_files/16_InDesign_vs_ChatGPT.png)
